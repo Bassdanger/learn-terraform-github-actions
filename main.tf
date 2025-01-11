@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 #4
-
+#test
 terraform {
   required_providers {
     aws = {
@@ -21,7 +21,7 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "balericaclass6"
+    organization = "CallahanCloud"
 
     workspaces {
       name = "learn-terraform-github-actions"
